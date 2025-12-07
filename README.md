@@ -2,7 +2,7 @@
 ![alt text](drone.png)
 ## TL;DR:
 
-Building high-quality datasets for combat drone detection is challenging due to safety risks, legal restrictions, and extreme scarcity of real-world imagery. **SynthDataGen** solves this by providing a toolkit to generate unlimited synthetic, labeled datasets of combat drones in minutes. We Achieved **0.99 mAP@50-95** on combat drone detection.
+Building high-quality datasets for combat drone detection is challenging due to safety risks, legal restrictions, and extreme scarcity of real-world imagery. **SynthDataGen** solves this by providing a toolkit to generate unlimited synthetic, labeled datasets of combat drones in minutes. We Achieved **0.99 mAP@50-95** on combat drone detection on a fast trained YOLOv11 model.
 
 ![alt text](bench.png)
 ## Why Synthetic Data?
@@ -33,9 +33,10 @@ Building high-quality datasets for combat drone detection is challenging due to 
 
 ```csharp
 // Configure dataset parameters
-- Select drone prefabs
+- Select the droned to use for the dataset creation
 - Set altitude/distance ranges
-- Choose lighting and weather conditions
+- Choose lighting, weather conditions, time of the day, custom dorenes color, occluders
+- Set the camera intrinsics
 - Click "Generate Dataset"
 ```
 
