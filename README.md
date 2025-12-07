@@ -1,8 +1,8 @@
 # Combat Drone Detection Dataset Generator
 ![alt text](drone.png)
-## Overview
+## TL;DR:
 
-Building high-quality datasets for combat drone detection is challenging due to safety risks, legal restrictions, and extreme scarcity of real-world imagery. **SynthDataGen** solves this by providing a Unity-based toolkit to generate unlimited synthetic, labeled datasets of combat drones in minutes.
+Building high-quality datasets for combat drone detection is challenging due to safety risks, legal restrictions, and extreme scarcity of real-world imagery. **SynthDataGen** solves this by providing a toolkit to generate unlimited synthetic, labeled datasets of combat drones in minutes. We Achieved **0.99 mAP@50-95** on combat drone detection.
 
 ![alt text](bench.png)
 ## Why Synthetic Data?
