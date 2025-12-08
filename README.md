@@ -2,7 +2,7 @@
 ![alt text](drone.png)
 ## TL;DR:
 
-Building high-quality datasets for combat drone detection is challenging due to safety risks, legal restrictions, and extreme scarcity of real-world imagery. **SynthDataGen** solves this by providing a toolkit to generate unlimited synthetic, labeled datasets of combat drones in minutes. We Achieved **0.99 mAP@50-95** on combat drone detection on a fast trained YOLOv11 model. Try the model here: https://app.roboflow.com/combatdrones/combat-drones-demo
+Building high-quality datasets for combat drone detection is challenging due to safety risks, legal restrictions, and extreme scarcity of real-world imagery. **SynthDataGen** solves this by providing a toolkit to generate unlimited synthetic, labeled datasets of combat drones in minutes. We Achieved **0.99 mAP@50-95** on combat drone detection on a fast trained YOLOv11 model. Try the demo dataset here: https://app.roboflow.com/combatdrones/combat-drones-demo
 
 ![alt text](bench.png)
 ## Why Synthetic Data?
